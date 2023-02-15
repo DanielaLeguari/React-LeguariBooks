@@ -20,7 +20,7 @@ const IconesHeader = () => {
         <>
             <IconesContainer>
                 {icones.map((icones) => (
-                    <IconeContainer >
+                    <IconeContainer key={1}>
                         <img src={icones} alt='icones' />
                     </IconeContainer>
                 ))}

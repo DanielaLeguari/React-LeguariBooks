@@ -22,7 +22,7 @@ const OpcoesHeader = () => {
         <>
             <Opcoes>
                 {textoOpcoes.map((texto) => (
-                    <Opcao><p>{texto}</p></Opcao>
+                    <Opcao key={1}><p>{texto}</p></Opcao>
                 ))}
             </Opcoes>
         </>
