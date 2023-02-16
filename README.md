@@ -1,5 +1,7 @@
 # Projeto Front-end LeguariBooks
 
+- Projeto em construção...
+
 - Projeto front-end desenvolvido durante formação full stack node.js da plataforma Alura, este projeto foi desenvolvido em conjunto com o projeto Back-end LeguariBooks o qual consistiu na criação de um servidor de dados para este projeto front-end.
 
 *******
