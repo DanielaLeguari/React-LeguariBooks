@@ -6,11 +6,13 @@
 
 ## Tecnologias Utilizadas neste Projeto
 
-- React/Js
-- Styled components
+- React/Js;
+- Styled components;
+- React-router-dom;
 
-## Após baixar este repositório, para executar o projeto utilize o comando:
+## Após baixar este repositório, para executar o projeto utilize os comandos:
 
+### `npm i`
 ### `npm start`
 
 *******

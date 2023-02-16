@@ -1,22 +1,21 @@
-import Header from './components/Header';
-import styled from 'styled-components';
-import Pesquisa from './components/Pesquisa';
-import UltimosLancamentos from './components/UltimosLancamentos';
 
-const AppContainer = styled.main`
-      width: 100%;
-      height: 100vh;
-      background-image: linear-gradient(90deg, #002F52 35%, #326589 165%);
-`
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Home from './Pages/Home';
+import Favoritos from './Pages/Favoritos';
+import Categorias from './Pages/Categorias';
+import MinhaEstante from './Pages/MinhaEstante';
 
 function App() {
   return (
     <>
-    <AppContainer>
-      <Header />
-      <Pesquisa />
-    </AppContainer>
-    <UltimosLancamentos/>
+      <BrowserRouter> 
+        <Routes >
+          <Route path="/" element={<Home />} />
+          <Route path="/categorias" element={<Categorias />} />
+          <Route path="/favoritos" element={<Favoritos/>} />
+          <Route path="/minhaestante" element={<MinhaEstante />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }

@@ -4,7 +4,7 @@ import IconesHeader from '../IconesHeader';
 import styled from 'styled-components';
 
 const HeaderContainer = styled.header`
-    background-color: #f6f6f6;
+    background-image: linear-gradient(90deg, #f6f6f6 35%, #326589 165%);
     display: flex;
     list-style: none;
 `

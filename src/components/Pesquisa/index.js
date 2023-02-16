@@ -46,6 +46,7 @@ const Resultado = styled.div`
     }
 `
 
+
 const Pesquisa = () => {
   const [livrosPesquisados, setLivrosPesquisados] = useState([]);
 
